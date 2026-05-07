@@ -1,0 +1,26 @@
+{
+  "name": "lazyrun",
+  "version": "0.1.0",
+  "description": "TUI for GitHub Actions workflow runs — like lazygit, for gh run",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "lazyrun": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.27",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "neo-blessed": "^0.2.0"
+  }
+}
