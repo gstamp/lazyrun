@@ -1,0 +1,2 @@
+- See `README.md` for project details
+- Use btca-local skill to ask questions about external github libraries
